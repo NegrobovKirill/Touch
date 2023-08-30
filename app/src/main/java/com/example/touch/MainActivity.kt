@@ -36,5 +36,6 @@ class MainActivity : AppCompatActivity() {
         val intRange:IntRange = 20..60
         bindingClass.toucher.setTextSize(TypedValue.COMPLEX_UNIT_SP,intRange.random().toFloat())
 
+
     }
 }
